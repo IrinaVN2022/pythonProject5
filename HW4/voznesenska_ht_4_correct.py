@@ -3,16 +3,6 @@
 
 raw_string = "Hello my dear friend. oo aio How are you?"
 word_counter = 0
-cods = [69, 73, 79, 65, 85, 89, 97, 121, 117, 111, 105, 101]
-# for i in raw_string.split():
-#     flag=False
-#     for j in range(len(i)-1):
-#         if ord(i[j]) in cods and ord(i[j+1]) in cods:
-#             flag=True
-#     if flag:
-#         print(i)
-#         word_counter+=1
-
 letters = 'aeoui'
 for word in raw_string.split():
     for idx in range(len(word) - 1):
