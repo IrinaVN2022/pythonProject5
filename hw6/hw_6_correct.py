@@ -2,13 +2,14 @@
 #перетворений на float.
 #Якщо перетворити не вдається функція має повернути 0.
 
-def get_float(arg1, arg2=0):
+
+def get_float(arg):
 
     while True:
         try:
-            argum = float(input(arg1))
+            argum = float(input(arg))
         except:
-            return arg2
+            return 0
             continue
         else:
             break
