@@ -4,7 +4,7 @@ def is_string_capitalized(string):
     """
     Function check if the given string is already capitalised
     Args:
-        string: any type (str)
+        string
 
     Returns: True|False
 
